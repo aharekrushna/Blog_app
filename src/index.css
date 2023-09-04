@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Indie+Flower&display=swap');
+
+*{
+  margin:0;
+  padding:2px 4px;
+  /* font-family: "Handjet"; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 57, 15);
+ 
+}
+
+
+body{
+  background-image: url(https://img.freepik.com/free-photo/makeup-brush-eyeglasses-cactus-plant-white-flower-bouquet-with-laptop-blue-background_23-2148178672.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+   
+}
+.navbar{
+  padding: 35px;
+  display: flex;
+  /* flex-direction: column; */
+  background-color: rgba(2, 52, 88, 0.43);
+  margin: 13px auto;
+  border-radius: 10px;
+  backdrop-filter:blur(4px);
+ 
+  align-items: center;
+  max-width: 800px;
+  
+  /* border-bottom: 1px solid rgb(236, 171, 171); */
+}
+.navbar h1{
+  color: rgb(236, 193, 74);
+  background-color: rgba(0, 0, 0, 0.726);
+ padding: 7px 15px;
+ border-radius: 7px;
+}
+.navbar .links{
+  margin-left: auto;
+  
+}
+.navbar a{
+  margin-left: 16px ;
+  text-decoration:none;
+  color: rgb(236, 193, 74);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.71);
+  padding: 8px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+.navbar a:hover{
+  color: rgb(236, 74, 74);
+  font-weight: 600;
+  background-color: rgba(253, 224, 82, 0.658);
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+
+.content{
+  max-width:600px;
+  margin:40px auto;
+  padding: 20px;
+}
+
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  background-color: rgba(47, 79, 79, 0.293);
+  border-radius: 9px;
+  /* border-bottom: 1px solid rgb(208, 120, 120); */
+  transition: all ease 0.3s;
+ 
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgb(22, 13, 13);
+  backdrop-filter: blur(2px);
+  border-radius: 0;
+  
+}
+.blog-preview h2{
+  font-size: 20px;
+  color: rgb(254, 106, 0);
+  margin-bottom: 8px;
+
+}
+.blog-preview a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.blog-details h2{
+  font-size: 20px;
+  color: rgb(232, 52, 52);
+  margin-bottom: 10px;
+}
+.blog-details div{
+  margin: 20px 0;
+}
+.article{
+  border: 0.5px solid rgba(3, 7, 105, 0.293);
+  box-shadow: 1px 3px 5px rgb(22, 13, 13);
+  padding: 25px;
+  border-radius: 3px 3px 5% 5%;
+  backdrop-filter: blur(15px);
+  background-color:#7785a328 ;
+}
+.article h2{
+  color: rgb(255, 111, 8);
+  text-align: center;
+  font-size: 1.6rem;
+  background-color:rgba(7, 242, 211, 0.153) ;
+  border-radius: 10px;
+  padding: 10px ;
+  backdrop-filter: blur(2px);
+
+}
+
+.article p{
+  font-weight: bold;
+  font-size: large;
+  color: rgba(78, 6, 6, 0.801);
+  padding-top: 10px;
+
+
+}
+.details{
+  font-weight: 500;
+  color: rgb(164, 41, 0);
+  font-size: 1.1rem;
+  line-height: 25px;
+
+}
+.blog-details button{
+  background:rgb(232, 52, 52);
+  color: aliceblue;
+  border: 0;
+  font-size: large;
+  padding: 7px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  
+ 
+
+}
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 1px 3px 5px rgb(22, 13, 13);
+  padding: 40px;
+  border-radius: 4px;
+
+}
+.create label{
+  text-align: left;
+  display: block;
+  font-weight: bolder;
+  font-size: large;
+  
+  
+}
+.create h2{
+  font-weight: bold ;
+  font-size: 25px;
+  color: rgb(248, 243, 243);
+  margin-bottom: 30px;
+  background-color: rgba(13, 29, 48, 0.375) ;
+  padding: 8px;
+  border-radius: 4px;
+  backdrop-filter: blur(1.5px);
+}
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #4d3838 ;
+  box-sizing: border-box;
+  display: block;
+  background-color: rgba(247, 254, 255, 0.642);
+  color: black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  
+}
+
+.create textarea{
+  height: 120px;
+}
+
+.create button{
+  background: rgb(244, 117, 19);
+  color: #fef9f9;
+  border: 0;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
